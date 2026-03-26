@@ -23,6 +23,21 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "unreal",
+    "obsessed",
+    "proud",
+    "sick",
+    "wicked",
+    "fire",
+    "lit",
+    "dope",
+    "goated",
+    "immaculate",
+    "beautiful",
+    "wonderful",
+    "fantastic",
+    "lovely",
+    "hopeful",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +51,18 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "rough",
+    "complicated",
+    "exhausted",
+    "frustrated",
+    "annoyed",
+    "miserable",
+    "stuck",
+    "depressed",
+    "anxious",
+    "overwhelmed",
+    "disappointed",
+    "falling",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +77,29 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    
+    # Add 5-10 more posts and labels.
+    "ngl this week has been rough 😭",
+    "lowkey obsessed with this song rn 🔥",
+    "I absolutely love waking up at 5am for no reason 🙃",
+    "just submitted my project idk if it's good but it's DONE",
+    "meh",
+    "everything's falling apart but at least I have coffee ☕",
+    "no cap that sunset was unreal 💀🧡",
+    "why does everything have to be so complicated",
+    "I love getting stuck in traffic",
+    "That exam was sick",
+    "Not bad actually",
+    "I'm exhausted but proud of myself",
+    "I hate how much I love this song",
+    "The food was bad but the vibes were immaculate",
+    "I don't think this is good",
+    "best day ever honestly",
+    "I can't stop smiling 😊",
+    "this is so frustrating I want to scream",
+    "it's whatever I guess",
+    "the vibes are immaculate today",
+    "I'm stressed but at least it's almost Friday",
 ]
 
 # Human labels for each post above.
@@ -65,9 +115,32 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    
+    # Add 5-10 more posts and labels.
+    "negative",  # "ngl this week has been rough 😭"
+    "positive",  # "lowkey obsessed with this song rn 🔥"
+    "negative",  # "I absolutely love waking up at 5am for no reason 🙃" (sarcasm)
+    "mixed",     # "just submitted my project idk if it's good but it's DONE"
+    "neutral",   # "meh"
+    "mixed",     # "everything's falling apart but at least I have coffee ☕"
+    "positive",  # "no cap that sunset was unreal 💀🧡"
+    "negative",  # "why does everything have to be so complicated"
+    "negative",  # "I love getting stuck in traffic" (sarcasm)
+    "positive",  # "That exam was sick" (slang)
+    "positive",  # "Not bad actually" (negation)
+    "mixed",     # "I'm exhausted but proud of myself"
+    "mixed",     # "I hate how much I love this song"
+    "mixed",     # "The food was bad but the vibes were immaculate"
+    "negative",  # "I don't think this is good" (wide negation)
+    "positive",  # "best day ever honestly"
+    "positive",  # "I can't stop smiling 😊"
+    "negative",  # "this is so frustrating I want to scream"
+    "neutral",   # "it's whatever I guess"
+    "positive",  # "the vibes are immaculate today"
+    "mixed",     # "I'm stressed but at least it's almost Friday"
 ]
 
-# TODO: Add 5-10 more posts and labels.
+
 #
 # Requirements:
 #   - For every new post you add to SAMPLE_POSTS, you must add one

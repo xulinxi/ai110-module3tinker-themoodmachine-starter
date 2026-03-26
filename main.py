@@ -80,6 +80,7 @@ def run_interactive_loop() -> None:
         # reason = analyzer.explain(user_input)
         # print(f"Model: {label} ({reason})")
         print(f"Model: {label}")
+        print(analyzer.diagnose(user_input))
 
 
 if __name__ == "__main__":
